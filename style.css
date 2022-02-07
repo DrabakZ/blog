@@ -1,0 +1,20 @@
+header {
+    background-color: black;
+    color: red;
+}
+body {
+    background-color: black;
+    color: red;
+}
+
+#titulo {
+    color: rgb(0, 255, 13);
+}
+
+p.parrafo {
+    color: royalblue;
+}
+
+p.texto {
+    color: seagreen;
+}

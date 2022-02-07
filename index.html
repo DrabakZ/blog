@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi blog</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <!-- tr es una fila dentro de la tabla-->
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <!--th genera una columna-->
+            <th>Producto</th>
+            <th>precio</th>
+        </tr>
+        <tr>
+            <!--td se utiliza para poder definir elementos estandares que se encuentran dentro de las celdas de la tabla-->
+            <td>cuchillo</td>
+            <td>1$</td>
+        </tr>
+        <tr>
+            <td>motosierra</td>
+            <td>3$</td>
+        </tr>
+        <tr>
+            <td>conjunto de motorierra y cuchillos</td>
+            <td>5.99$</td>
+        </tr>
+       </tbody> 
+       <tfoot>
+           <td></td>
+           <td>Total 9.99$</td>
+       </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ul>
+    <!-- ol es una lista ordenada-->
+    <ol>
+        <li value="50">elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;">sub elemnto 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+        <br>
+        <label for="comentario">comentario</label> <br>
+        <textarea placeholder="ingrese comentario" name="comentario" id="comentario" cols="50" rows="10"></textarea>
+        <br>
+        <button type="button">Enviar</button>
+
+    </form>
+    <h1>EL MUNDO DEL TERROR</h1>
+    <h2>no bajes</h2>
+    <h3>no sigas bajando</h3>
+    <p>estas advertido</p>
+    <p>detente</p>
+    <hr>
+    <h2>quedas advertido</h2>
+    <p>
+        todo esto puede ser traumatico <span style="color: rgb(160, 126, 223);"> y peligroso </span> 
+        para ti <br> qquedas advertido.</p>
+    <!-- este texto es un comentario que no aparece en el explorador -->
+    
+     <a target="_blank" href="https://t1.uc.ltmcdn.com/images/0/3/7/img_como_disfrazarse_de_la_nina_del_exorcista_2730_600_square.jpg">no aprietes aqui</a>   
+     <img width="1000px" src="https://estaticos.muyinteresante.es/media/cache/760x570_thumb/uploads/images/article/5811d4ed5cafe876058b4567/payaso-2.jpg"/>
+</body>
+</html>
